@@ -3,11 +3,13 @@ package io.nobrains.ipldashboard.controller;
 import io.nobrains.ipldashboard.model.Team;
 import io.nobrains.ipldashboard.repository.MatchRepository;
 import io.nobrains.ipldashboard.repository.TeamRepository;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin
 public class TeamController
 {
 
